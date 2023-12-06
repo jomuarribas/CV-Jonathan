@@ -1,0 +1,13 @@
+#resumen {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  #resumen {
+    margin-top: 170px;
+  }
+  }

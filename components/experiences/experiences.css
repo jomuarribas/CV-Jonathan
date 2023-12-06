@@ -1,0 +1,16 @@
+#experiencias {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 6px;
+}
+
+#experiencias > h3 {
+  margin-bottom: 20px;
+}
+
+#experiencias > h4 {
+  margin-top: 13px;
+  font-size: 17px;
+}

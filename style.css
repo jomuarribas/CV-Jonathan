@@ -1,20 +1,50 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --jcv-background-color: #1b1823;
+  --jcv-bacground-color-secundary: #333039;
+  --jcv-primary-color: aliceblue;
+  --jcv-secondary-color: #7eff9e;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --jcv-border-radius: 20px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--jcv-background-color);
+  color: var(--jcv-primary-color);
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--jcv-primary-color);
+}
+
+#header {
+  display: flex;
+}
+
+#main {
+  padding: 0 5% 0 5%;
+}
+
+h3 {
+  color: var(--jcv-secondary-color);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
 }

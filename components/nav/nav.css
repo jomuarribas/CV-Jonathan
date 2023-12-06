@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  width: 450px;
+  gap: 20px;
+  font-size: 20px;
+  padding: 100px 20px 0 0;
+}
+
+nav a {
+  display: flex;
+  align-self: flex-end;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: var(--jcv-secondary-color);
+  text-shadow: 0 0 10px var(--jcv-secondary-color);
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 540px;
+    background-color: var(--jcv-bacground-color-secundary);
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 120px;
+    border-radius: var(--jcv-border-radius);
+    border: 1px solid var(--jcv-secondary-color);
+  }
+  
+}

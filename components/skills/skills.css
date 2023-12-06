@@ -1,0 +1,16 @@
+#habilidades {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+}
+
+#habilidades > h3 {
+  margin-bottom: 20px;
+}
+
+#habilidades > h4 {
+  margin-top: 13px;
+  font-size: 17px;
+}

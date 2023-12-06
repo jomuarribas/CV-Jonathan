@@ -1,0 +1,66 @@
+.personalInfDiv {
+  background-color: var(--jcv-bacground-color-secundary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 0 0 400px 400px ;
+}
+
+.nameDiv > h1 {
+  margin-top: 20px;
+  font-family: 'Antonio', sans-serif;
+  font-size: 60px;
+
+}
+
+.nameDiv > h2 {
+  margin-top: 10px;
+  color: var(--jcv-secondary-color);
+  font-family: 'Antonio', sans-serif;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  gap: 7px;
+  font-size: 15px;
+}
+
+.contactDiv :nth-child(1) {
+  cursor: pointer;
+}
+
+.contactDiv :nth-child(1):hover {
+  color: var(--jcv-secondary-color);
+  transition: 300ms;
+}
+
+.photography {
+  margin-top: 40px;
+}
+
+.photography > img {
+  border-radius: 100%;
+  width: 250px;
+  margin-bottom: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.351);
+  box-shadow: 0px 0px 10px var(--jcv-secondary-color);
+}
+
+@media screen and (max-width: 700px) {
+  .contactDiv {
+    margin-top: 20px;
+  }
+  
+  .nameDiv h1{
+    font-size: 42px;
+  }
+  .photography > img{
+    width: 190px;
+    
+  }
+}

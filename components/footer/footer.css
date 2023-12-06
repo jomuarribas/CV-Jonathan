@@ -1,0 +1,11 @@
+#footer {
+  color: var(--jcv-secondary-color);
+  margin-top: 20px;
+}
+
+#footer > div {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

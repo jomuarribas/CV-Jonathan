@@ -1,0 +1,45 @@
+#educacion {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  margin-top: 50px;
+  align-items: center;;
+}
+
+#educacion > button {
+  height: 40px;
+  width: 200px;
+  border-radius: var(--jcv-border-radius);
+  border: none;
+  background-color: var(--jcv-secondary-color);
+  cursor: pointer;
+}
+
+#educacion > button:hover {
+  background-color: var(--jcv-primary-color);
+  transform: scale(0.95);
+  transition: 200ms;
+}
+
+.cursosDiv {
+  display: none;
+  background-color: var(--jcv-bacground-color-secundary);
+  padding: 20px;
+  max-width: 750px;
+  border-radius: var(--jcv-border-radius);
+}
+
+.cursosDiv > div {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .cursosDiv > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}

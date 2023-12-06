@@ -1,0 +1,70 @@
+#gitHub {
+  position: relative;
+  margin-top: 50px;
+  border-radius: var(--jcv-border-radius);
+  background-image: url('/assets/github-pages.jpeg');
+  background-size: cover;
+  background-position: center center;
+  transition: 1s;;
+
+}
+
+#gitHub > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--jcv-border-radius);
+}
+
+#gitHub > h2 {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 40px;
+  font-size: 40px;
+  text-shadow: 10px 10px 10px black;
+  cursor: pointer;
+}
+
+.gitHubIcon {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+  padding-right: 100px;
+}
+.gitHubIcon > h2 {
+  margin-right: 20px;
+  font-size: 30px;
+  text-shadow: 1px 1px 8px red;
+}
+
+.gitHubIcon > img {
+  width: 115px;
+  filter:drop-shadow(0px 0px 10px var(--jcv-secondary-color));
+  cursor: pointer;
+}
+
+.gitHubIcon > img:hover {
+  filter: invert(100);
+  filter:drop-shadow(0px 0px 10px var(--jcv-secondary-color));
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+
+  .gitHubIcon {
+    padding-right: 0;
+    justify-content: end;
+  }
+
+  .gitHubIcon {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 60px ;
+    padding-right: 30px;
+  }
+
+  
+}

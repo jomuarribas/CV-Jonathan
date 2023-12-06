@@ -1,0 +1,19 @@
+#herramientas {
+  background-color: var(--jcv-bacground-color-secundary);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+  padding: 30px;
+  border-radius: var(--jcv-border-radius);
+}
+
+#herramientas > h3 {
+  margin-bottom: 20px;
+}
+
+#herramientas > h4 {
+  margin-top: 13px;
+  font-size: 17px;
+}

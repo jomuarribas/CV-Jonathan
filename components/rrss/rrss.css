@@ -1,0 +1,39 @@
+.rrss {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 520px;
+  padding: 35px 0 0 20px;
+  gap: 5px;
+  border-radius: 0 0 20px 0;
+  background-image: url('/public/assets/developer-background.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.rrss img {
+  cursor: pointer;
+  width: min-content;
+  object-position: 20% 80%;
+  filter: invert(50);
+  transform: scale(0.8);
+}
+
+.rrss img:hover{
+  transform: scale(1);
+  filter: none;
+  filter: drop-shadow(0 0 10px var(--jcv-secondary-color));
+  transition: 300ms;
+}
+
+@media screen and (max-width: 700px) {
+  .rrss {
+    background-image: none;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  
+}
