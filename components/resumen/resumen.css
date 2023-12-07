@@ -7,7 +7,9 @@
 }
 
 @media screen and (max-width: 700px) {
-  #resumen {
-    margin-top: 170px;
+
+  #resumen > h3 {
+    display: flex;
+    justify-content: center;
   }
   }
